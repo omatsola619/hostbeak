@@ -147,3 +147,37 @@
 .in {
   text-decoration: none;
 }
+@media screen and (max-width: 767px) {
+  .left{
+    display: none;
+  }
+  .formName{
+    font-size: 30px;
+  }
+  .formSub{
+    font-size: 20px;
+  }
+  .formControl1{
+    margin-bottom: 20px;
+  }
+  .check{
+    width: 25px;
+    height: 25px;
+  }
+  .formGroup3{
+    flex-direction: column;
+  }
+  .label{
+    font-size: 15px;
+  }
+  .forgot{
+    font-size: 15px;
+  }
+  .signup {
+    height: 50px;
+    font-size: 20px;
+  }
+  .signin{
+    font-size: 15px;
+  }
+}
