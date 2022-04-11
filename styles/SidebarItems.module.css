@@ -1,0 +1,158 @@
+.links {
+  margin-top: 55px;
+}
+.item {
+  margin-bottom: 11px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.item1 {
+  min-width: 345px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 23px 99px 23px 73px;
+  gap: 52px;
+}
+.icon {
+  width: 34px;
+  height: 34px;
+  color: rgba(196, 196, 196, 1);
+}
+.icon2 {
+  font-size: 80px !important;
+  color: rgba(196, 196, 196, 1);
+}
+.linkName {
+  font-family: "Gilroy";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #c4c4c4;
+}
+.item i {
+  height: 12px;
+  width: 6px;
+  color: rgba(211, 214, 228, 1);
+}
+.item2 {
+  margin-bottom: 49px;
+  margin-top: 51px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.item3 {
+  cursor: pointer;
+}
+.item3 button {
+  width: 303.43px;
+  background-color: rgba(8, 20, 148, 1);
+  color: white;
+  margin: 0 67.78px 0 31.78px;
+  height: 73px;
+  font-family: "Gilroy";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  border: none;
+  border-radius: 12px;
+}
+.item3 button img {
+  width: 51.01px;
+  height: 38.26px;
+  margin-right: 14.99px;
+}
+.ikon.active {
+  transform: rotate(90deg);
+}
+/*control item4 height*/
+.item4 {
+  min-width: 350px;
+  height: 80px;
+  padding: 23px 99px 23px 73px;
+  gap: 52px;
+  overflow: hidden;
+}
+.item4.active {
+  height: 250px;
+}
+
+.cover {
+  display: flex;
+  align-items: center;
+  gap: 52px;
+  min-width: 271px;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+.listItem {
+  font-size: 20px;
+  margin-left: 85px;
+  color: #c4c4c4;
+  margin-bottom: 11px;
+}
+.listItem:first-child {
+  color: #081494;
+}
+.rest {
+  margin-top: 32px;
+}
+.activeIcon {
+  background: #081494;
+  height: 80px;
+  width: 80px;
+  padding: 30px;
+  border-radius: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -18px;
+}
+.activeLinkName {
+  margin-left: -30px;
+  font-size: 20px;
+}
+/*control item5 height*/
+.item5 {
+  min-width: 350px;
+  height: 80px;
+  padding: 23px 99px 23px 73px;
+  gap: 52px;
+  overflow: hidden;
+}
+.item5.active {
+  height: 400px;
+}
+.rest2 {
+  margin-top: 20px;
+}
+.logoutActive {
+  font-family: "Gilroy";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #c4c4c4;
+}
+.item2Active {
+  margin-bottom: 25px;
+  margin-top: -25px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.pageLink{
+  color: #081494;
+  text-decoration: none;
+}
+.pageLink Link{
+  text-decoration: none;
+}

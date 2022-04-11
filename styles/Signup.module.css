@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+@font-face {
+  font-family: "Roobert";
+  src: url("/fonts/roobert-regular.ttf");
+}
+.cover {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+}
+.left {
+  background-image: url("/lady.png");
+  flex: 0.5;
+  height: 900px;
+}
+.left p {
+  position: absolute;
+  height: 172px;
+  left: 10.76%;
+  right: 58.06%;
+  top: 612px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: -1px;
+  color: #ffffff;
+  text-shadow: 0px 32px 84px rgba(29, 41, 63, 0.06);
+}
+.right {
+  flex: 0.5;
+}
+.formName {
+  font-family: "Roobert";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #272262;
+}
+.formSub {
+  font-family: Roobert;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(40, 44, 64, 0.6);
+}
+.container {
+  padding: 45px 99.53px 44.34px 63px;
+}
+.form {
+  margin-top: 58.76px;
+}
+.label {
+  font-family: Roobert;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  margin-bottom: 15.99px;
+  text-align: left;
+  color: rgba(40, 44, 64, 0.6);
+}
+.formControl1 {
+  width: 250px;
+  border: none;
+  border-bottom: 3px solid #e5e5e5;
+  outline: none;
+  font-family: Roobert;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(55, 60, 86, 1);
+  padding: 3px;
+}
+.formGroup2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 38px;
+}
+.formControl2 {
+  border: none;
+  border-bottom: 3px solid #e5e5e5;
+  outline: none;
+  font-family: Roobert;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(55, 60, 86, 1);
+  padding: 3px;
+}
+.formGroup3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 38px;
+}
+.check {
+  background: rgba(235, 235, 235, 1);
+  border-radius: 10px;
+  width: 30.32px;
+  height: 30.27px;
+  border: 1px solid #d8d8d8;
+}
+.formAction1 {
+  display: flex;
+  gap: 14.76px;
+}
+.forgot {
+  font-family: Roobert;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-decoration: none;
+  color: rgba(61, 176, 255, 1);
+}
+.signup {
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  background: #3db0ff;
+  height: 83.23px;
+  font-family: Roobert;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0em;
+  color: white;
+}
+.signin {
+  text-align: center;
+  margin-top: 15.43px;
+  font-family: Roobert;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+}
+.in {
+  text-decoration: none;
+}
